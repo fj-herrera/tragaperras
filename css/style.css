@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ #caja-creditos{background-color: antiquewhite; padding:30px; text-align: center; font-size: 20px; } 
+  #contenedor{width: 600x; display: block;} 
+    #creditos{ width: 400px; height: 200px; border: 2px solid white; background-color:rgb(190, 177, 159);  display:  inline-block; margin-bottom: 30px;}
+      .coin, .coin img{width:15px; height: 15px;}
+      .coin{display: inline-block;}
+    #ruletas{ position: relative; max-width: 100%; text-align: center; display: inline-block;}
+    .ruleta{width: 200px; height: 230px; display:inline-block;}
+    .ruleta div{width: 200px; height: 200px; background-color: white;}
+    #ruletas .btn{ position: relative;margin-top: 10px;visibility: hidden;}
+    .mini{width: 200px; height: auto;}
+#caja-tirar, #caja-reiniciar{text-align: center;}
+    #btn-tirar, #btn-reiniciar{transform: scale(200%); margin-top: 30px;}
+    #caja-reiniciar{display:none;}
+
+  
